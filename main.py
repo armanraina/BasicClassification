@@ -1,8 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
-import numpy as np
-# from tensorflow.keras import layers
 mnist = keras.datasets.mnist
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
